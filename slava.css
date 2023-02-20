@@ -1,0 +1,457 @@
+.navbar{
+	background: #A9A9A9;
+    width: 100%;
+    height: 100%;
+
+}
+.navbar-brand img{
+	width: 80px;
+	height: 80px;
+	margin: 5px;
+}
+.nav-item{
+	margin: 30px;
+	font-family: serif;
+	font-size: -30%;
+	text-transform: uppercase;
+    margin-left: 10px;
+}
+.form-inline{
+	margin: 10%;
+}
+
+.dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 1440px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #B0C4DE;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 1300px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+
+
+.my-img {
+  width: 120px;
+  height: 150px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#main {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+#title{
+  font-size:1.2em;
+  background-color:black;
+  margin:0.1em;
+  padding:.1em;
+  color:white;position:absolute
+  
+}
+
+.row,number{
+    display: flex;
+
+}
+.number h3{
+    /* margin-left: 40px; */
+    font-weight: bolder;
+    font-size: 35px;
+    color:#A9A9A9;
+    font-family: Times, Times New Roman, serif;
+    margin: 5px;
+
+}
+.number h5{
+color: #B0C4DE;
+font-size: 20px;
+margin: -2px;
+font-family: Times, Times New Roman, serif;
+margin-top: 10px;
+margin-left: 280px; 
+}
+.number h4{
+    color: #B0C4DE;
+font-size: 20px;
+margin: -2px;
+font-family: Times, Times New Roman, serif;
+margin-top: 10px;
+
+}
+.kolonka{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin: 20px;
+    
+}
+.butt{
+    display: flex;
+}
+.shopnow, .sizeguide {
+     background: url(https://html5book.ru/wp-content/uploads/2015/07/background39.png);
+    width: 170px;
+    margin-right: 30px;
+    display: flex;
+    margin: 10px;
+    transition: .3s;
+}
+ 
+.size-btn, .shop-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    border:1px solid #333333;
+    font: 16px/50px "OpenSansBold";
+    text-align: center;
+    height: 50px;
+    width: 170px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.size-btn {
+    width: 70px;  
+    margin-right: 21px;
+}
+ 
+.size-btn:nth-child {
+    margin-right: 0px;
+}
+ 
+input[value^=Shop] {
+    background-color: transparent;
+    color: #777777;
+}
+ 
+.size-btn:hover, .shop-btn:hover {
+    background-color: #B0C4DE;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+     font-family: 'Montserrat', sans-serif;
+
+
+}
+.mybtn{
+    text-align: center; 
+    padding: 8px 10px; 
+    border: solid 1px black; 
+    color: #7777777; 
+    background:#ffffff;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;    
+    text-transform: uppercase;
+
+}
+.mybtn:hover {
+    color: #fff;
+    background: #d4d4d4;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+.korzina button{
+     color: red;
+     text-transform: uppercase;
+     font-size: 15px;
+     font-family: sans-serif;
+}
+.col{
+    display: flex;
+}
+
+.body {
+  background: url(https://html5book.ru/wp-content/uploads/2015/07/background39.png);
+}
+.floating-button {
+  text-decoration: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 20px ;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+ 
+}
+.floating-button:hover {
+  background: #B0C4DE ;
+  box-shadow: 0 15px 20px rgba #B0C4DE;
+  color: white;
+  transform: translateY(-7px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.spoiler_wrap {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 22px;
+    background: #fff;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.spoiler_title {
+    cursor: pointer;
+}
+
+.spoiler_title, .spoiler_content {
+    padding: 30px 26px;
+}
+
+.spoiler_content {
+    padding-top: 0;
+    padding-bottom: 10px;
+    transition: 0.15s ease-out;
+    height: auto;
+    max-height: 0px;
+    overflow: hidden;
+    margin-top: -10px;
+    opacity: 0;
+    font-size: 14px;
+    color: #444;
+}
+
+.spoiler_content p {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #333;
+    line-height: 1.4;
+    font-family:Times, Times New Roman, serif;
+}
+
+.spoiler_content.open {
+    margin-top: 0;
+    max-height: 100%;
+    opacity: 1;
+}
+
+.spoiler_title .spoiler_arrow {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+    transition: all .1s;
+    vertical-align: middle;
+}
+
+.spoiler_title .spoiler_arrow svg {
+    fill: red;
+    width: 13px;
+}
+.spoiler_title .spoiler_arrow.open {
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  footer  */
+footer{
+    padding-top: 100px;
+    background: #A9A9A9;
+}
+
+footer .footer > ul{
+    overflow: hidden;
+}
+
+footer .footer > ul > li{
+    display: block;
+    float: left;
+    list-style: none;
+    margin-right: 150px;
+}
+
+footer .footer > ul > li:last-child{
+    margin-right: 0;
+}
+
+
+footer .footer > ul > li.links{
+    width: 197px;
+}
+
+footer ul li.links > ul > li{
+    display: block;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 27px;
+}
+
+footer ul li.links > ul > li:last-child{
+    margin-bottom: 0;
+}
+
+footer .footer > ul > li.links li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    letter-spacing: .5px;
+    text-align: left;
+    line-height: 24px;
+    padding-right: 50px;
+}
+
+footer .footer > ul > li.about{
+    width: 340px;
+    
+}
+
+footer ul li.about p{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    letter-spacing: .5px;
+    line-height: 34px;
+    margin-top: -9px;
+    text-align: left;
+   
+
+
+}
+
+footer ul li.about > ul > li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+footer ul li.about > ul > li:last-child{
+    margin-right: 0;
+}
+
+footer ul li.about > ul > li a{
+    background: url('../img/social_media.png') no-repeat;
+}
+
+footer ul li.about > ul > li a.facebook{
+    display: block;
+    width: 10px;
+    height: 18px;
+    background-position: 0 0;
+}
+footer ul li.about > ul > li a.twitter{
+    display: block;
+    width: 19px;
+    height: 18px;
+    background-position: -11px 0px;
+}
+footer ul li.about > ul > li a.google{
+    display: block;
+    width: 10px;
+    height: 18px;
+    background-position: -31px 0px;
+}
+footer ul li.about > ul > li a.skype{
+    display: block;
+    width: 17px;
+    height: 18px;
+    background-position: -43px 0px;
+}
+
+footer .copyrights{
+    display: block;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 60px;
+    color: #fff;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: .5px;
+    border-top: 1px solid #82abd4;
+}
+
+footer .copyrights a.ph_link{
+    font-family: "lato-bold", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+.pokypka button{
+    border-radius: 30px;
+    font-size: 14px;
+    margin-right: 50px;
+}
